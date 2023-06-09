@@ -1,0 +1,87 @@
+#how {
+	background: rgb(8,15,0);
+	background: linear-gradient(0deg, rgba(8,15,0,1) 0%, rgba(33,59,0,1) 100%);
+}
+.hows_title {
+	font-weight:900;
+	font-size: 3.5em;
+}
+#how .phScrnItem {
+	max-width:280px;
+	margin:auto;
+}
+.howitworks_owl {
+	align-items: center;
+}
+#how .numberContainer {
+	text-align: right;
+}
+.numberBtn {
+	color:#fff;
+	padding: 1em 0;
+}
+.numberBtn:hover{
+	cursor:pointer;
+}
+.howitworks_owl .numberBtn.phnactive{
+	color:#7BDA00;
+	text-decoration:underline;
+}
+.howitworks_owl .numberbx{
+	display:none;
+}
+.howitworks_owl .numberbx.phnactive{
+	display:block;
+}
+.howitworks_owl .numberbx p{
+	text-transform:uppercase;
+}
+.howitworks_owl .numberbx h3{
+	font-size:2.5em;
+	font-weight:700;
+	line-height:1.3;
+}
+.howitworks_owl .btn_apply {
+	background:#7BDA00;
+	max-width: 250px;
+	width: 100%;
+	border-radius: 0.5em;
+	padding: 0.5em 1em;
+	font-size:20px;
+	font-weight:600;
+}
+.numbers_bx a{
+	text-decoration:none;
+}
+.hows_emp_spc {
+	height: 10vh;
+}
+
+@media (max-width: 767px){
+	
+	.howitworks_owl .numberContainer>div {
+		display: flex;
+		justify-content: space-evenly;
+	} 
+	.hows_title {
+		font-size: 2em;
+		margin-bottom: 1em;
+	}
+	.howitworks_owl .btn_apply {
+		max-width:400px;
+		padding: 0.8em 1em;
+		height: 60px;
+	}
+	.howitworks_owl .numberbx h3{
+		font-size:30px;
+	}
+	.hows_emp_spc {
+		height: 4vh;
+	}
+	#how .phScrnItem {
+		max-width:250px;
+	}
+	.numberContainer {
+		margin: 3em 0 0 0;
+	}
+}
